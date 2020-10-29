@@ -10,6 +10,7 @@
 
 body{
     font-family:'Poppins',sans-serif;
+    overflow-x: hidden;
 }
 
 html{
@@ -25,6 +26,11 @@ header{
     background: var(--dark);
     clip-path:polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
 }
+
+nav {
+    margin-bottom: 4rem;
+}
+
 .container{
     max-width:1152px;
     padding:0 15px;
@@ -79,7 +85,7 @@ header nav .branding{
     padding:3rem 0;
 }
 .hero .left img{
-    width:400px;
+    width:600px;
 }
 .hero .right{
     color:var(--pure);
@@ -432,13 +438,15 @@ section.contact .input-wrap-2 input{
     margin-bottom:2rem;
 }
 section.contact input{
-    padding:0.5rem;
-    border:1px solid var(--light);
+    padding:0.6rem;
+    border:1px solid var(--secondary);
+    border-radius: 10px;
     font-size: 0.9rem;
 }
 section.contact .input-wrap-2 textarea{
     padding:0.5rem;
-    border:1px solid var(--light);
+    border:1px solid var(--secondary);
+    border-radius: 10px;
     font-size: 0.9rem;
 }
 section.contact .input-wrap-2 textarea:focus, section.contact input:focus{
